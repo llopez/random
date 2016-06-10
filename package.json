@@ -1,0 +1,18 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "json api that ingest an array of items and returns a random item",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "randomjs"
+  },
+  "author": "Luis Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
