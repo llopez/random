@@ -4,7 +4,7 @@
   "description": "json api that ingest an array of items and returns a random item",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
