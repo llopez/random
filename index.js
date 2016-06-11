@@ -2,9 +2,11 @@ var express = require('express');
 var app = express();
 
 app.set('port', (process.env.PORT || 3000));
+app.set('view engine', 'pug');
+app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-  res.send('Welcome to random!!!');
+  res.render('index');
 });
 
 app.get('/api/sample.json', function (req, res) {
